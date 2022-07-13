@@ -15,7 +15,7 @@ const AppText: React.FC<AppTextProp> = ({children, style, ...otherProps}) => {
 const styles = StyleSheet.create({
   text: {
     color: Colors.black,
-    fontFamily: FontFamily.SourceSansL,
+
     fontSize: FontSize.S,
   },
 });

@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     marginLeft: wp(1),
     minHeight: hp(6),
     fontSize: FontSize.M,
-    fontFamily: FontFamily.SourceSansL,
+
     fontWeight: 'normal',
     color: Colors.darkGray,
     // backgroundColor: 'green',

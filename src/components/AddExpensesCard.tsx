@@ -129,7 +129,6 @@ const styles = StyleSheet.create({
   },
   dropDownTextStyle: {
     color: Colors.darkGray,
-    fontFamily: FontFamily.SourceSansL,
     fontSize: FontSize.M,
   },
   dropDowncontainerStyle: {

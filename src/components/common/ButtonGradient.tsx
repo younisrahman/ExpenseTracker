@@ -44,7 +44,7 @@ const ButtonGradient: React.FC<AppButtonProp> = ({
 const styles = StyleSheet.create({
   buttonText: {
     color: Colors.white,
-    fontFamily: FontFamily.SourceSansB,
+
     fontSize: FontSize.M,
   },
   gradientStyle: {

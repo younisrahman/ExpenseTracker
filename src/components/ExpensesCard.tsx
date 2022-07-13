@@ -39,20 +39,15 @@ const styles = StyleSheet.create({
     padding: hp(1),
     borderRadius: hp(1),
   },
-  expensesType: {
-    fontFamily: FontFamily.SourceSansB,
-  },
+
   amount: {
     marginTop: hp(1),
-    fontFamily: FontFamily.SourceSansB,
   },
   description: {
     marginTop: hp(1),
-    fontFamily: FontFamily.SourceSansB,
   },
   createAt: {
     marginTop: hp(1),
-    fontFamily: FontFamily.SourceSansB,
   },
 });
 

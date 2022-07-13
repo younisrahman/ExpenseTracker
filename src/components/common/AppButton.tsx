@@ -34,7 +34,7 @@ const AppButton: React.FC<AppButtonProp> = ({
 const styles = StyleSheet.create({
   buttonText: {
     color: Colors.darkGray,
-    fontFamily: FontFamily.SourceSansL,
+
     fontSize: FontSize.M,
   },
   gradientStyle: {

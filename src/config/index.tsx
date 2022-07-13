@@ -65,9 +65,4 @@ export const FontSize = {
 export const WIDTH = wp(92);
 export const Redious = hp(2.7);
 
-export const FontFamily = {
-  SourceSansB: 'SourceSansPro-Bold',
-  SourceSansR: 'SourceSansPro-Light',
-  SourceSansL: 'SourceSansPro-Regular',
-  SourceSansEL: 'SourceSansPro-ExtraLight',
-};
+export const FontFamily = {};
