@@ -6,6 +6,7 @@ import {
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
 import {Colors, FontFamily} from '@config';
+import moment from 'moment';
 
 interface Props {
   type: string;
@@ -15,6 +16,7 @@ interface Props {
 }
 
 const ExpensesCard = ({type, amount, description, date}: Props) => {
+  let dateString = moment(date).toString();
   return (
     <View style={styles.container}>
       <AppText style={styles.expensesType}>
@@ -22,7 +24,7 @@ const ExpensesCard = ({type, amount, description, date}: Props) => {
       </AppText>
       <AppText style={styles.amount}>Amount: {amount}</AppText>
       <AppText style={styles.description}>Description: {description}</AppText>
-      <AppText style={styles.createAt}>Create at: {date.toString()}</AppText>
+      <AppText style={styles.createAt}>Create at: {dateString}</AppText>
     </View>
   );
 };

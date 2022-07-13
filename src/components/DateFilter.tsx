@@ -12,18 +12,50 @@ interface Props {
   onPressAll?: () => void;
   onPressWeek?: () => void;
   onPressMonth?: () => void;
+  selected?: string;
 }
 
-const DateFilter = ({onPressAll, onPressWeek, onPressMonth}: Props) => {
+const DateFilter = ({
+  onPressAll,
+  onPressWeek,
+  onPressMonth,
+  selected,
+}: Props) => {
   return (
     <View style={styles.conatiner}>
-      <TouchableOpacity style={styles.allButtons} onPress={onPressAll}>
+      <TouchableOpacity
+        style={[
+          styles.allButtons,
+          {
+            backgroundColor:
+              selected === 'all' ? Colors.date : Colors.lightGray1,
+            borderBottomLeftRadius: heightPercentageToDP(1),
+          },
+        ]}
+        onPress={onPressAll}>
         <AppText>All</AppText>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.allButtons} onPress={onPressWeek}>
+      <TouchableOpacity
+        style={[
+          styles.allButtons,
+          {
+            backgroundColor:
+              selected === 'week' ? Colors.date : Colors.lightGray1,
+          },
+        ]}
+        onPress={onPressWeek}>
         <AppText>Weekly</AppText>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.allButtons} onPress={onPressMonth}>
+      <TouchableOpacity
+        style={[
+          styles.allButtons,
+          {
+            backgroundColor:
+              selected === 'month' ? Colors.date : Colors.lightGray1,
+            borderBottomRightRadius: heightPercentageToDP(1),
+          },
+        ]}
+        onPress={onPressMonth}>
         <AppText>Monthly</AppText>
       </TouchableOpacity>
     </View>

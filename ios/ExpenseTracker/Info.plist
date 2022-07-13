@@ -54,12 +54,6 @@
 		<string>SimpleLineIcons.ttf</string>
 		<string>Octicons.ttf</string>
 		<string>Zocial.ttf</string>
-		<string>fonts/Rubik-ExtraBold.ttf</string>
-		<string>fonts/Rubik-Medium.ttf</string>
-		<string>fonts/Rubik-Regular.ttf</string>
-		<string>fonts/Rubik-Black.ttf</string>
-		<string>fonts/Rubik-Bold.ttf</string>
-		<string>fonts/SpaceMono-Regular.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

@@ -8,12 +8,13 @@ import {
   ShoppingExpenses,
   HomeScreen,
 } from '@screens';
+import DrawerConfig from '@components/DrawerConfig';
 
 const Drawer = createDrawerNavigator();
 
 const RootDrawerNavigator = () => {
   return (
-    <Drawer.Navigator>
+    <Drawer.Navigator drawerContent={props => <DrawerConfig props={props} />}>
       <Drawer.Screen
         name="Home"
         component={HomeScreen}

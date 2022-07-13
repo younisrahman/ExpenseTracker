@@ -5,7 +5,7 @@ import {
 import {RFValue} from 'react-native-responsive-fontsize';
 
 export const Colors = {
-  primary: '#0D2440',
+  primary: '#0D2A40',
   primary2: '#1BBC9B',
   primaryText: '#45AE9F',
   golden: 'rgba(255, 184, 34, 0.8)',

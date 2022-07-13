@@ -8,3 +8,4 @@ module.exports = {
     },
   },
 };
+// react-native.config.js
